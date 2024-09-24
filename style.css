@@ -9,7 +9,7 @@ body{
     
     max-width: 1500px ;
     margin: 0 auto;
-    padding: 25px;
+    padding: 10px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -32,7 +32,7 @@ h4{
 .description
 {
 font-size: 17px;
-color: #6161618f;
+color: #0000008f;
 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 max-width: 800px;
 padding: 20px;
@@ -41,15 +41,16 @@ background-color: #fff;
 footer{
     text-align: center;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 10px;
     padding: 50px;
 }
 #maicon:hover{
-    color: aqua;
-    background-color: black;
-    font-size: 32px;
+    color: rgb(0, 0, 0);
+    
+    font-size: 30px;
     
 }
+
 #maicon:active
 {
     background-color: yellow;
@@ -58,4 +59,44 @@ footer{
 h2
 {
     font-family: sodadi-one;
+}
+
+li{
+    list-style-type: none;
+}
+li:hover
+{
+    
+    color:rgb(0, 255, 21);
+    background-color: black;
+    color: transparent;
+    border-radius: 30PX;;
+    text-align: center;
+}
+#nome:hover::before
+{   
+     content: "MAICON DOS SANTOS PERSIANA";
+     color: rgb(0, 26, 255);   
+     text-align: center;
+}
+#cpf:hover::before
+{
+ content: "123.123.345.34";
+ color: rgb(0, 26, 255);  
+ text-align: center;
+}
+#idade:hover::before
+{
+ content: "30";
+ color: rgb(0, 26, 255);  
+}
+#curso:hover::before
+{
+ content: "TADS";
+ color: rgb(0, 26, 255);  
+}
+#profissao:hover::before
+{
+ content: "ENGENHEIRO DE AVIÃO";
+ color: rgb(0, 26, 255);  
 }
